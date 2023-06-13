@@ -22,6 +22,6 @@ Web ini dibuat menggunakan Bootstrap, copas-copas ji saja kodong mau ki pake Lar
 | [Iyat](github.com/rynhdyt19) | Front End | Pakeki Bootstrap 👨‍💻 |
 | [Ghazali](github.com/cipaxdragon) | Back End | Mau beng pake Laravel tapi tena issengi PHP OOP dan MVC 😅 |
 
-Website HMJSI sekarang menggunakan PHP native saja karena waktu yang mepet dengan job-job lain 😓
+Website HMJSI sekarang menggunakan PHP native saja karena waktu yang mepet dengan job-job lain Nda ada waktu belajar :v 😓
 
 ## Sekian Terima Kasih Mohon maaf atas segala kekurangang 🙏
