@@ -2,17 +2,17 @@
 
 <p>
   <a href="sisfouinam.com" target="_blank">
-    <img src="https://cdn.discordapp.com/attachments/873016107391402044/1118054320089342012/2343.png" width="200" alt="Laravel Logo">
+    <img src="https://cdn.discordapp.com/attachments/873016107391402044/1118054320089342012/2343.png" width="100%" alt="Laravel Logo">
   </a>
-  <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="200" alt="Laravel Logo">
-  </a>
+    <div style="text-align: center;">
+    <a href="https://laravel.com" target="_blank">
+      <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="600" alt="Laravel Logo">
+    </a>  
+    <a  target="_blank">
+      <img src="https://www.php.net/images/logos/new-php-logo.svg" width="400" alt="Laravel Logo">
+    </a>
+    </div>
 
-  <a href="https://laravel.com" target="_blank">
-    <img src="https://www.php.net/images/logos/new-php-logo.svg" width="200" alt="Laravel Logo">
-  </a>
-
-  
 </p>
 
 
