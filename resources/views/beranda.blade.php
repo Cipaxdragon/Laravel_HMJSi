@@ -1,5 +1,6 @@
 @extends('layouts.main')
 @section('container')
+{{-- baru sampai implementasi view --}}
 <div class="kotakAtas container-fluid">
   <div class="judul">
       <h1 class="text-center text-white">SELAMAT DATANG</h1>
