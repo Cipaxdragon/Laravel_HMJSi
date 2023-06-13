@@ -2,9 +2,9 @@
 
 <p>
   <a href="sisfouinam.com" target="_blank">
-    <img src="https://cdn.discordapp.com/attachments/873016107391402044/1118054320089342012/2343.png" width="100%" alt="Laravel Logo">
+    <img src="https://cdn.discordapp.com/attachments/873016107391402044/1118054320089342012/2343.png" width="50%" alt="Laravel Logo">
   </a>
-    <div style="text-align: center;">
+    <div style="text-align: left;">
     <a href="https://laravel.com" target="_blank">
       <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="600" alt="Laravel Logo">
     </a>  
