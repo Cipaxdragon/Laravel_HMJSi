@@ -6,8 +6,8 @@ Web ini dibuat menggunakan boostrap, copas-copas ji saja kodong mau ki pake lara
 
 | Pekerja | Jobdesk | Keterangan |
 |--|--|--|
-| Ridho Ilahi | Penanggung Jawab | Oba Oba 😄 |
-| Kak Adam | UI Design | Pake Figma 🎨 |
+| [Ridho Ilahi](https://www.instagram.com/muhridha_/)  | Penanggung Jawab | Oba Oba 😄 |
+| [Adam](https://www.instagram.com/adamm412_/)  | UI Design | Pake Figma 🎨 |
 | [Iyat](github.com/rynhdyt19) | Frond End | Pakeki Boostrap 👨‍💻 |
 | [Ghazali](github.com/cipaxdragon) | Back End | Mau beng pake laravel tapi tena issengi PHP OOP dan MVC 😅 |
 
