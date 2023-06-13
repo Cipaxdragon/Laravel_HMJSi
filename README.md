@@ -25,5 +25,6 @@ Web ini dibuat menggunakan Bootstrap, copas-copas ji saja kodong mau ki pake Lar
 Website HMJSI sekarang menggunakan PHP native saja karena waktu yang mepet dengan job-job lain Nda ada waktu belajar :v 😓
 si
 Reponya ada di [sini](https://github.com/Cipaxdragon/HMJ-SI)
-
 ## Sekian Terima Kasih Mohon maaf atas segala kekurangang 🙏
+<img src="https://cdn.discordapp.com/attachments/873016107391402044/1118151779398467584/asdfgd.png" width="80%">
+
