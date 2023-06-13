@@ -7,7 +7,7 @@ Web ini di buat menggunakan boostrap copas copas ji saja kodong mau ki pake lara
 
 			   
 | Pekerja  | Jobdesk  | Keterangan  |
-|--|--|--|--|
+|--|--|--|
 | Ridho Ilahi | Penanggung Jawab  | Oba Oba
 | [Iyat](github.com/rynhdyt19)| Frond End | Pakeki Boostrap
  | [Ghazali](github.com/cipaxdragon)  | Back End|mau beng pake laravel tapi tena issengi php oop dan mvc 
