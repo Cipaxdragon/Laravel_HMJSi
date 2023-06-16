@@ -1,5 +1,6 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -47,6 +48,9 @@ Route::get('/pendaftaran', function () {
         "title" => "pendaftaran",
     ]);
 });
+
+use App\Http\Controllers\PengurusController;
+Route::get('/', [PengurusController::class, 'index']);
 
 
 

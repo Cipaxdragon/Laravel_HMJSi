@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="gaya.css">
-    <title>{{$title}}</title>
+    <title>SISFO</title>
     <link rel="shortcut icon" href="./image/android-chrome-192x192.png" type="image/x-icon">
 </head>
 <body>

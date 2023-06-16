@@ -12,7 +12,7 @@
             <a  class="nav-link fw-bold";  href="/beranda" >Beranda</a>
           </li>
           <li id="peding"  class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fw-bold";" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Berita Terkini
             </a>
             <ul id="peding" class="dropdown-menu">

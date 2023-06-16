@@ -3,7 +3,12 @@
 {{-- baru sampai implementasi view --}}
 <div class="kotakAtas container-fluid">
   <div class="judul">
-      <h1 class="text-center text-white">SELAMAT DATANG</h1>
+      <h1 class="text-center text-white">
+        @foreach($data as $pengurus)
+        {{ $pengurus->nama }}
+    @endforeach
+
+      </h1>
       <h4 class="text-center text-white">Di Website Himpunan Mahasiswa Jurusan Sistem Informasi</h4>
       <p class="text-center text-white fw-bold fs-5" style="margin-top: 370px;">Website ini ditujukan untuk peminat IT sebagai sumber informasi seputar Konten - konten yang ada di website ini antara lain berisi berbagai Berita dan kegiatan-kegiatan yang diadakan oleh HMJ - SI</p>
   </div>
@@ -37,7 +42,7 @@
         <div class="card">
           <img src="./image/WhatsApp Image 2022-08-31 at 17.36.png" class="card-img-top" alt="gambar bersama">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Beranda</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             <div class="tombol">
               <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
