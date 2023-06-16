@@ -40,7 +40,5 @@ Route::get('/pendaftaran', function () {
     ]);
 });
 Route::post('/login', [\App\Http\Controllers\AdminController::class, 'login'])->name('admin.login');
-Route::get('/admin', [\App\Http\Controllers\AdminController::class, 'showLoginForm'])->name('admin.login');
 Route::get('/admin', [\App\Http\Controllers\AdminController::class, 'showLoginForm'])->name('admin');
-
-
+Route::get('/admin', [\App\Http\Controllers\AdminController::class, 'showLoginForm'])->name('admin.login');
