@@ -1,8 +1,8 @@
 <?php
 
-
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PostinganController;
+// use Illuminate\Support\Facades\DB;
 Route::get('/', function () {
     return view('beranda',[
         "title" => "beranda",
@@ -49,17 +49,7 @@ Route::get('/pendaftaran', function () {
     ]);
 });
 
-use App\Http\Controllers\PengurusController;
-Route::get('/', [PengurusController::class, 'index']);
 
 
 
-
-
-
-
-
-
-
-
-
+Route::get('/', [PostinganController::class, 'getPostinganByKategori'])->name('postingan.index');

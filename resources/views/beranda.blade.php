@@ -4,9 +4,6 @@
 <div class="kotakAtas container-fluid">
   <div class="judul">
       <h1 class="text-center text-white">
-        @foreach($data as $pengurus)
-        {{ $pengurus->nama }}
-    @endforeach
 
       </h1>
       <h4 class="text-center text-white">Di Website Himpunan Mahasiswa Jurusan Sistem Informasi</h4>
@@ -26,54 +23,26 @@
       </ul>
     </div>
     <div class="berita row row-cols-1 row-cols-md-4 g-4">
-      <div class="col">
-        <div class="card">
-          <img src="./image/IMG_9181 1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Company Visit</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="tombol">
-                 <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
+
+        @foreach ($postingan as $key => $item)
+        @if($key < 4)
+            <div class="col">
+                <div class="card">
+                    <img src="./image/IMG_9181 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ $item->judul }}</h5>
+                        <p class="card-text">{{ Str::limit($item->teks, 50) }}</p>
+                        <div class="tombol">
+                            <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="./image/WhatsApp Image 2022-08-31 at 17.36.png" class="card-img-top" alt="gambar bersama">
-          <div class="card-body">
-            <h5 class="card-title">Beranda</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="tombol">
-              <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-         </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-          <div class="card">
-              <img src="./image/IMG_1075.png" class="card-img-top" alt="gambar bersama">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="tombol">
-                  <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-             </div>
-              </div>
-            </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="./image/IMG_4846 1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="tombol">
-              <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-         </div>
-          </div>
-        </div>
-      </div>
+        @endif
+    @endforeach
+
+
+
     </div>
 </div>
 
@@ -95,42 +64,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card">
-          <img src="./image/WhatsApp Image 2022-08-31 at 17.36.png" class="card-img-top" alt="gambar bersama">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="tombol">
-              <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-         </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-          <div class="card">
-              <img src="./image/IMG_1075.png" class="card-img-top" alt="gambar bersama">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="tombol">
-                  <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-             </div>
-              </div>
-            </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="./image/IMG_4846 1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="tombol">
-              <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-         </div>
-          </div>
-        </div>
-      </div>
+
     </div>
 </div>
 
