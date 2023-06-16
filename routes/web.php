@@ -2,49 +2,43 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostinganController;
-// use Illuminate\Support\Facades\DB;
-Route::get('/', function () {
-    return view('beranda',[
-        "title" => "beranda",
-    ]);
-});
-Route::get('/beranda', function () {
-    return view('beranda',[
-        "title" => "beranda",
-    ]);
-});
+
+Route::get('/', [PostinganController::class, 'index'])->name('postingan.index');
+Route::get('/beranda', [PostinganController::class, 'index'])
+    ->name('beranda.index');
+
+
 
 Route::get('/kontak', function () {
-    return view('kontak',[
+    return view('kontak', [
         "title" => "kontak",
     ]);
 });
 
 Route::get('/tentang', function () {
-    return view('tentang',[
+    return view('tentang', [
         "title" => "tentang",
     ]);
 });
 
-Route::get('/pengumuman', function () {
-    return view('pengumuman',[
-        "title" => "pengumuman",
-    ]);
-});
+Route::get('/pengumuman', [PostinganController::class, 'getPostinganByKategori_1'])
+    ->name('pengumuman.index')
+    ->middleware('web');
+
 Route::get('/kegiatan', function () {
-    return view('kegiatan',[
+    return view('kegiatan', [
         "title" => "info kegiatan",
     ]);
 });
 
 Route::get('/beasiswa', function () {
-    return view('beasiswa',[
+    return view('beasiswa', [
         "title" => "beasiswa",
     ]);
 });
 
 Route::get('/pendaftaran', function () {
-    return view('pendaftaran',[
+    return view('pendaftaran', [
         "title" => "pendaftaran",
     ]);
 });
@@ -52,9 +46,10 @@ Route::get('/pendaftaran', function () {
 
 
 
-Route::get('/', [PostinganController::class, 'getPostinganByKategori'])->name('postingan.index');
-Route::get('/beranda', [PostinganController::class, 'getPostinganByKategori'])->name('postingan.index');
-Route::get('/pengumuman', [PostinganController::class, 'getPostinganByKategori_1'])
-    ->name('postingan.index')
-    ->middleware('web');
+// ==== admin ====
 
+Route::get('/admin', function () {
+    return view('admin/login', [
+        "title" => "Login Kanda Rido"
+    ]);
+});

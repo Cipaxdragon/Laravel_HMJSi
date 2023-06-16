@@ -12,7 +12,9 @@ class PostinganController extends Controller
     public function index()
     {
         $postingan = Postingan::all();
-        return view('postingan.index', compact('postingan'));
+        $title = "Beranda";
+        return view('beranda', compact('postingan', 'title'));
+
     }
 
 
