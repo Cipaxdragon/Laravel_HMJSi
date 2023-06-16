@@ -53,3 +53,8 @@ Route::get('/pendaftaran', function () {
 
 
 Route::get('/', [PostinganController::class, 'getPostinganByKategori'])->name('postingan.index');
+Route::get('/beranda', [PostinganController::class, 'getPostinganByKategori'])->name('postingan.index');
+Route::get('/pengumuman', [PostinganController::class, 'getPostinganByKategori_1'])
+    ->name('postingan.index')
+    ->middleware('web');
+
