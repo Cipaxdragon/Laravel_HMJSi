@@ -1,13 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PostinganController;
 
-Route::get('/', [PostinganController::class, 'index'])->name('postingan.index');
-Route::get('/beranda', [PostinganController::class, 'index'])
+Route::get('/', [\App\Http\Controllers\PostinganController::class, 'index'])->name('postingan.index');
+Route::get('/beranda', [\App\Http\Controllers\PostinganController::class, 'index'])
     ->name('beranda.index');
-
-
 
 Route::get('/kontak', function () {
     return view('kontak', [
@@ -21,7 +18,7 @@ Route::get('/tentang', function () {
     ]);
 });
 
-Route::get('/pengumuman', [PostinganController::class, 'getPostinganByKategori_1'])
+Route::get('/pengumuman', [\App\Http\Controllers\PostinganController::class, 'getPostinganByKategori_1'])
     ->name('pengumuman.index')
     ->middleware('web');
 
@@ -42,14 +39,8 @@ Route::get('/pendaftaran', function () {
         "title" => "pendaftaran",
     ]);
 });
+Route::post('/login', [\App\Http\Controllers\AdminController::class, 'login'])->name('admin.login');
+Route::get('/admin', [\App\Http\Controllers\AdminController::class, 'showLoginForm'])->name('admin.login');
+Route::get('/admin', [\App\Http\Controllers\AdminController::class, 'showLoginForm'])->name('admin');
 
 
-
-
-// ==== admin ====
-
-Route::get('/admin', function () {
-    return view('admin/login', [
-        "title" => "Login Kanda Rido"
-    ]);
-});
