@@ -20,7 +20,7 @@ Web ini dibuat menggunakan Bootstrap, copas-copas ji saja kodong mau ki pake Lar
 | [Ridho Ilahi](https://www.instagram.com/muhridha_/) | Penanggung Jawab | Oba Oba / turu / Sponsor Rokok 🚬 |
 | [Kanda Adam](https://www.instagram.com/adamm412_/) | UI Design | Pake Figma 🎨 |
 | [Iyat](github.com/rynhdyt19) | Front End | Pakeki Bootstrap 👨‍💻 |
-| [Ghazali](github.com/cipaxdragon) | Back End | Mau beng pake Laravel tapi tena issengi PHP OOP dan MVC 😅 |
+| [Ghazali](github.com/cipaxdragon) | Back End | Di Bantu cet gepete 😅 |
 
 > Website HMJSI sekarang menggunakan **PHP native** saja karena waktu yang mepet dengan job-job lain Nda ada waktu belajar :v 😓
 si
