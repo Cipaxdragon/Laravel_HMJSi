@@ -22,7 +22,7 @@ Web ini dibuat menggunakan Bootstrap, copas-copas ji saja kodong mau ki pake Lar
 | [Iyat](github.com/rynhdyt19) | Front End | Pakeki Bootstrap 👨‍💻 |
 | [Ghazali](github.com/cipaxdragon) | Back End | Di Bantu cet gepete 😅 |
 
-> Website HMJSI sekarang menggunakan **PHP native** saja karena waktu yang mepet dengan job-job lain Nda ada waktu belajar :v 😓
+> Pengerjaan Website HMJSI sementara  menggunakan **PHP native** karna masih belajar pake laravel😓
 si
 Reponya ada di [sini](https://github.com/Cipaxdragon/HMJ-SI)
 ## Sekian Terima Kasih Mohon maaf atas segala kekurangang 🙏
